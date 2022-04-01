@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-animation {
+        @apply transition-all duration-200 ease-linear;
+    }
+
+    .button {
+        @apply px-5 py-2.5 custom-animation text-sm font-semibold rounded-full;
+    }
+}
